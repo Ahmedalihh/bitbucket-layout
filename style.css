@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 40px;
+  font-size: small;
+}
+
+.navimg {
+  margin-left: 70px;
+}
+
+.navlogin {
+  margin-left: 150px;
+  color: rgb(85, 85, 226);
+}
+
+.navbtn button {
+  margin-right: 50px;
+  padding: 7px 5px;
+  background-color: white;
+  color: rgb(85, 85, 226);
+  border: 1px solid blue;
+  border-radius: 3px;
+  font-size: small;
+}
+.nav {
+  margin-left: 30px;
+  gap: 40px;
+  text-align: center;
+  color: rgb(85, 85, 226);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+.flex {
+  flex: 1;
+}
+.code {
+  flex: 1;
+}
+.code h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  color: #1f1f21;
+  width: 510px;
+}
+.code {
+  margin-bottom: 60px;
+}
+.code p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 550px;
+  color: #42526e;
+}
+.code button {
+  background-color: rgb(43, 43, 235);
+  margin-top: 20px;
+  padding: 8px 15px;
+  font-size: small;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.card p {
+  /* width: 300px; */
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #091e42;
+  margin-left: 15px;
+
+  margin-right: 35px;
+}
+.card img {
+  margin-right: 150px;
+}
+.card h3 {
+  margin-right: 40px;
+}
+.p {
+  padding-left: 20px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.on {
+  margin-top: 30px;
+  margin-left: 35px;
+}
+.cd p {
+  color: rgb(56, 56, 234);
+  margin-right: 110px;
+  margin-top: 10px;
+}
+.in {
+  margin-left: 20px;
+}
+.cd h2 {
+  color: #253858;
+}
+.cd{
+    background-color: #f9f9fb;
+    min-height: 20vh;
+    width: 400px;
+    border-radius: 5px;
+}
