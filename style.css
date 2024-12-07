@@ -126,9 +126,257 @@
 .cd h2 {
   color: #253858;
 }
-.cd{
-    background-color: #f9f9fb;
-    min-height: 20vh;
-    width: 400px;
-    border-radius: 5px;
+.cd {
+  background-color: #f9f9fb;
+  min-height: 20vh;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.mode {
+  width: 100%;
+  height: 50vh;
+  background-color: #e9f2fe;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+.more {
+  text-align: center;
+  margin-top: 30px;
+}
+.more h2 {
+  padding-top: 50px;
+}
+.more h6 {
+  color: #0052cc;
+  line-height: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: none;
+  border: none;
+}
+.scale h2 {
+  text-align: center;
+  color: #253858;
+  line-height: 48px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.with {
+  flex: 1;
+}
+.para1 {
+  flex: 1;
+}
+.para1 h3 {
+  margin-left: 30px;
+  width: 330px;
+  color: #253858;
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.para1 p {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 300px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #091e42;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.para2 h3 {
+  margin-left: 30px;
+  width: 300px;
+  color: #253858;
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.para2 p {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 310px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #091e42;
+}
+.para2 {
+  flex: 1;
+}
+.with2 {
+  flex: 1;
+}
+.box5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.with3 {
+  flex: 1;
+}
+.para3 {
+  flex: 1;
+}
+.para3 p {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 310px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #091e42;
+}
+.para3 h3 {
+  margin-left: 30px;
+  width: 300px;
+  color: #253858;
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.box6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.para4 {
+  flex: 1;
+}
+.with4 {
+  flex: 1;
+}
+.para4 h3 {
+  margin-left: 30px;
+  width: 300px;
+  color: #253858;
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.para4 p {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 310px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #091e42;
+}
+.sec {
+  background-color: #e9f2fe;
+  height: 160vh;
+  margin-top: 30px;
+}
+.goes {
+  text-align: center;
+  padding-top: 50px;
+  color: #253858;
+  font-weight: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.goes p {
+  margin-top: 10px;
+  color: #091e42;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.child0 {
+  flex: 1;
+}
+.video3 {
+  flex: 1;
+}
+.video3 video {
+  margin-bottom: 40px;
+}
+.child0 h3 {
+  margin-right: 80px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #253858;
+}
+.child0 p {
+  width: 330px;
+  color: #091e42;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.para10 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #0052cc;
+}
+.learn {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #0052cc;
+}
+.mode1 {
+  width: 100%;
+  height: 50vh;
+  background-color: #101214;
+  margin-bottom: 20px;
+}
+.more1 {
+  text-align: center;
+  margin-top: 30px;
+}
+.more1 h6 {
+  color: #0052cc;
+  line-height: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: none;
+  border: none;
+}
+.more1 h2 {
+  padding-top: 50px;
+  color: #fca700;
+}
+.more1 p {
+  width: 600px;
+  margin-left: 230px;
+  color: white;
 }
